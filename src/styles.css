@@ -45,7 +45,7 @@ h3 {
 }
 
 #point-down-break {
-  margin: 125px 10px;
+  margin: 80px 10px;
   text-align: center;
   font-family: var(--secondary-font);
   font-size: 18px;
@@ -79,12 +79,23 @@ h3 {
 
 .img-thumbnail {
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  width: 560px;
+  height: 350px;
+  object-fit: scale-down;
+  background-color: #f9f7fe;
 }
 
 @media (max-width: 768px) {
   h1 {
     font-size: 66px;
   }
+  .hero {
+    padding: 135px 10px;
+  }
+  #point-down-break {
+    margin-top: 40px;
+  }
+
   .hero h2 {
     font-size: 26px;
   }
