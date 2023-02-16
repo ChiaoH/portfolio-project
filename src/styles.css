@@ -4,7 +4,7 @@ font-family: 'Poppins', sans-serif;*/
 :root {
   --primary-color: black;
   --secondary-color: #272142;
-  --tertiary-color: #6c63ff;
+  --tertiary-color: #ae92b3;
   --primary-font: "Playfair Display", serif;
   --secondary-font: "Poppins", sans-serif;
 }
@@ -28,8 +28,8 @@ h3 {
 }
 
 .hero {
-  background-color: #f9f7fe;
-  padding: 275px 10px;
+  background-color: #fff6de;
+  padding: 210px 10px;
   text-align: center;
 }
 
@@ -43,6 +43,9 @@ h3 {
   font-size: 18px;
   line-height: 27px;
 }
+.btn-primary:hover {
+  background-color: var(--secondary-color);
+}
 
 #point-down-break {
   margin: 80px 10px;
@@ -53,7 +56,7 @@ h3 {
 
 .container h2 {
   font-family: var(--primary-font);
-  font-size: 64px;
+  font-size: 50px;
 }
 
 .container p {
@@ -82,7 +85,11 @@ h3 {
   width: 560px;
   height: 350px;
   object-fit: scale-down;
-  background-color: #f9f7fe;
+  background-color: #fff6de;
+}
+
+.img-description {
+  padding: 36px;
 }
 
 @media (max-width: 768px) {
@@ -110,5 +117,8 @@ h3 {
 
   .container h2 {
     font-size: 42px;
+  }
+  .img-description {
+    padding: 0px;
   }
 }
