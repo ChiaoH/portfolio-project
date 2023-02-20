@@ -92,11 +92,11 @@ font-family: 'Poppins', sans-serif;*/
   padding: 36px;
 }
 
-.about-section {
+.content-container {
   padding: 210px 10px;
 }
 
-.about-section-content {
+.content {
   padding: 30px;
 }
 
@@ -134,25 +134,25 @@ font-family: 'Poppins', sans-serif;*/
   .img-description {
     padding: 0px;
   }
-  .about-section {
+  .content-container {
     text-align: center;
     padding: 0;
   }
 }
 
-.about-section h1 {
+.content-container h1 {
   font-size: 58px;
   font-weight: 700;
   font-family: var(--primary-font);
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--secondary-font);
   font-weight: 700;
 }
 
-.about-section p {
+.content-container p {
   font-size: 18px;
   font-weight: 400;
   font-family: var(--secondary-font);
