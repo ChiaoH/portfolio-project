@@ -107,7 +107,7 @@ font-family: 'Poppins', sans-serif;*/
 
 @media (max-width: 768px) {
   h1 {
-    font-size: 66px;
+    font-size: 52px;
   }
   .hero {
     padding: 135px 10px;
@@ -140,15 +140,21 @@ font-family: 'Poppins', sans-serif;*/
   }
 }
 
-.content-container h1 {
+.content h1 {
   font-size: 58px;
   font-weight: 700;
   font-family: var(--primary-font);
 }
 
-.content-container h2 {
+.content h2 {
   font-size: 18px;
   font-family: var(--secondary-font);
+  font-weight: 700;
+}
+
+.content h3 {
+  font-family: var(--secondary-font);
+  font-size: 22px;
   font-weight: 700;
 }
 
