@@ -167,6 +167,35 @@ nav a:hover {
   color: var(--tertiary-color);
 }
 
+footer .email-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+  font-family: var(--secondary-font);
+  font-size: 24px;
+  margin-top: 70px;
+  margin-bottom: 10px;
+}
+
+footer .email-link:hover {
+  color: var(--tertiary-color);
+}
+
+footer .social-links i {
+  font-size: 28px;
+  margin: 10px 26px;
+  color: var(--secondary-color);
+  padding: 12px;
+  border-radius: 50%;
+  background-color: var(--tertiary-color);
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links i:hover {
+  background-color: var(--secondary-color);
+  color: var(--tertiary-color);
+  cursor: pointer;
+}
+
 @media (max-width: 768px) {
   nav li {
     font-size: 14px;
