@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Wu-chiao is a front-end developer based in Sweden."
+    />
     <!--Bootstrap-->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
@@ -31,28 +35,32 @@
   </head>
 
   <body>
-    <!--Header (navigation) Section-->
     <div class="container">
-      <nav class="d-flex justify-content-between">
-        <a href="/">
-          <img
-            src="images/logo-2.png"
-            class="logo d-none d-md-block"
-            alt="Wu-chiao logo"
-          />
-          <img
-            src="images/logo-small.png"
-            class="logo-small d-block d-md-none"
-            alt="Wu-chiao logo small"
-          />
-        </a>
-        <ul class="">
-          <li class="active"><a href="/">Home</a></li>
-          <li><a href="/about.html">About</a></li>
-          <li><a href="/work.html">Work</a></li>
-          <li><a href="/contact.html">Contact</a></li>
-        </ul>
-      </nav>
+      <!--Header (navigation) Section-->
+      <div class="container">
+        <nav class="d-flex justify-content-between">
+          <a href="/" title="Homepage">
+            <img
+              src="images/logo-2.png"
+              class="logo d-none d-md-block"
+              alt="Wu-chiao logo"
+            />
+            <img
+              src="images/logo-small.png"
+              class="logo-small d-block d-md-none"
+              alt="Wu-chiao logo"
+            />
+          </a>
+          <ul class="">
+            <li class="active"><a href="/" title="Homepage">Home</a></li>
+            <li><a href="/about.html" title="About Wu-chiao">About</a></li>
+            <li><a href="/work.html" title="Wu-chiao's Projects">Work</a></li>
+            <li>
+              <a href="/contact.html" title="Contact Wu-chiao">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </div>
 
     <!--Hero Section-->
@@ -61,8 +69,17 @@
       <h1>Wu-chiao Huang</h1>
       <h3 class="mb-4">Front-end developer based in Sweden</h3>
       <div>
-        <a href="contact.html" class="btn btn-primary me-4">Contact me</a>
-        <a href="work.html" class="btn btn-primary ms-4 d-none d-sm-inline"
+        <a
+          href="contact.html"
+          class="btn btn-primary me-4"
+          title="Contact Wu-chiao
+        "
+          >Contact me</a
+        >
+        <a
+          href="work.html"
+          class="btn btn-primary ms-4 d-none d-sm-inline"
+          title="Check my projects"
           >Check my work</a
         >
       </div>
@@ -76,7 +93,7 @@
         <div class="col d-none d-lg-inline ms-4 me-4">
           <img
             src="images/weather-app.png"
-            alt="weather app project"
+            alt="weather app project preview"
             class="img-thumbnail"
           />
         </div>
@@ -88,7 +105,9 @@
             can search by city names, and the app will provide real data for
             both current weather and prediction.
           </p>
-          <a href="#" class="btn btn-secondary">Launch project</a>
+          <a href="/work.html" class="btn btn-secondary" title="Show project"
+            >Launch project</a
+          >
         </div>
       </div>
 
@@ -100,13 +119,15 @@
             The page is built using CSS, HTML, Javascript and real data from
             Moment.js API.
           </p>
-          <a href="#" class="btn btn-secondary">Launch project</a>
+          <a href="/work.html" class="btn btn-secondary" title="Show project"
+            >Launch project</a
+          >
         </div>
 
         <div class="col d-none d-lg-inline ms-4 me-4">
           <img
             src="images/world-clock.png"
-            alt="weather app project"
+            alt="world clock app project preview"
             class="img-thumbnail"
           />
         </div>
@@ -115,7 +136,7 @@
         <div class="col d-none d-lg-inline ms-4 me-4">
           <img
             src="images/fikalandingpage.png"
-            alt="weather app project"
+            alt="fika landing page project preview"
             class="img-thumbnail"
           />
         </div>
@@ -127,7 +148,9 @@
             simple informational page, yet it provides the opportunity for
             interaction through the clickable button.
           </p>
-          <a href="#" class="btn btn-secondary">Launch project</a>
+          <a href="/work.html" class="btn btn-secondary" title="Show project"
+            >Launch project</a
+          >
         </div>
       </div>
 
@@ -156,13 +179,17 @@
           >
         </div>
         <div class="social-links text-center mb-5">
-          <a href="https://www.linkedin.com/in/wu-chiao-huang-642a07255/"
+          <a
+            href="https://www.linkedin.com/in/wu-chiao-huang-642a07255/"
+            title="Wu-chiao's LinkedIn Profile"
             ><i class="fa-brands fa-linkedin"></i
           ></a>
-          <a href="https://github.com/ChiaoH"
+          <a href="https://github.com/ChiaoH" title="Wu-chiao's GitHub Profile"
             ><i class="fa-brands fa-github"></i
           ></a>
-          <a href="https://www.instagram.com/"
+          <a
+            href="https://www.instagram.com/"
+            title="Wu-chiao's Instagram Profile"
             ><i class="fa-brands fa-instagram"></i
           ></a>
         </div>

@@ -33,7 +33,7 @@ h4 {
 }
 .hero {
   background-color: #fff6de;
-  padding: 210px 10px;
+  padding: 160px 10px;
   text-align: center;
 }
 
@@ -97,7 +97,7 @@ h4 {
 }
 
 .content-container {
-  padding: 210px 10px;
+  padding: 80px 10px;
 }
 
 .content {
@@ -224,12 +224,13 @@ footer .social-links i:hover {
     font-size: 14px;
   }
 
-  h1 {
-    font-size: 52px;
-  }
   .hero {
-    padding: 135px 10px;
+    padding: 80px 10px;
   }
+  .hero h1 {
+    font-size: 48px;
+  }
+
   #point-down-break {
     margin-top: 40px;
   }
@@ -246,6 +247,9 @@ footer .social-links i:hover {
     line-height: 18px;
   }
 
+  .container h1 {
+    font-size: 48px;
+  }
   .container h2 {
     font-size: 42px;
   }
@@ -255,5 +259,14 @@ footer .social-links i:hover {
   .content-container {
     text-align: center;
     padding: 0;
+  }
+  footer .social-links i {
+    font-size: 20px;
+    margin: 10px 26px;
+    color: var(--secondary-color);
+    padding: 10px 12px;
+    border-radius: 50%;
+    background-color: var(--tertiary-color);
+    transition: all 100ms ease-in-out;
   }
 }
