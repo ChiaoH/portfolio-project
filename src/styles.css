@@ -102,11 +102,16 @@ h4 {
 
 .content {
   padding: 30px;
+  
 }
+
 
 .profile-pic {
   max-width: 400px;
   border-radius: 20px;
+  margin-right: 20px;
+  float: right;
+  
 }
 
 .content h1 {
@@ -172,7 +177,7 @@ nav a:hover {
 }
 
 footer {
-  margin: 70px;
+  margin: 140px 70px 70px 70px;
 }
 
 footer .inquiry-box {
@@ -217,6 +222,15 @@ footer .social-links i:hover {
   background-color: var(--secondary-color);
   color: var(--tertiary-color);
   cursor: pointer;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+
+footer a:hover {
+  color: var(--secondary-color);
 }
 
 @media (max-width: 768px) {
