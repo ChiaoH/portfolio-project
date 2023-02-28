@@ -17,6 +17,54 @@ body {
   background-color:  var(--primary-color);
 }
 
+.logo {
+  max-height: 60px;
+}
+.logo-small {
+  max-height: 40px;
+  padding-top: 10px;
+}
+
+
+nav {
+  padding: 12px 0px;
+  
+}
+
+nav ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 55px;
+  padding: 12px;
+  font-size: 16px;
+  font-family: var(--secondary-font);
+ 
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--quaternary-color);
+  transition: all 100ms ease-in-out;
+}
+
+nav li.active a,
+nav a:hover {
+  
+  color: var(--tertiary-color);
+}
+
+
+.hero {
+  padding: 160px 10px;
+  text-align: center;
+  margin-bottom: 80px;
+  }
+
 .hero h1 {
   font-family: var(--primary-font);
   font-size: 86px;
@@ -38,15 +86,9 @@ body {
   color: var(--tertiary-color);
 }
 
-h4 {
+.hero h4 {
   font-size: 40px;
   font-family: var(--primary-font);
-}
-.hero {
-  padding: 160px 10px;
-  text-align: center;
-  margin-bottom: 80px;
-  
 }
 
 .btn-primary {
@@ -64,16 +106,19 @@ h4 {
   background-color: var(--tertiary-color);
 }
 
-.container h2 {
+.gallery h2 {
   font-family: var(--primary-font);
   font-size: 50px;
   font-weight: 500;
+  color: var(--quaternary-color);
 }
 
-.container p {
+.gallery p {
   font-family: var(--secondary-font);
   font-size: 16px;
   line-height: 30px;
+  color: var(--tertiary-color);
+  
 }
 
 .btn-secondary {
@@ -124,15 +169,17 @@ h4 {
 }
 
 .content h1 {
-  font-size: 58px;
+  font-size: 52px;
   font-weight: 700;
   font-family: var(--primary-font);
+  color: var(--quaternary-color);
 }
 
 .content h2 {
   font-size: 18px;
   font-family: var(--secondary-font);
   font-weight: 700;
+  color: var(--quaternary-color);
 }
 
 .content h3 {
@@ -157,44 +204,16 @@ h4 {
   line-height: 1.5;
 }
 
-.logo {
-  max-height: 60px;
-}
-.logo-small {
-  max-height: 40px;
-  padding-top: 10px;
-}
-
-
-nav {
-  padding: 12px 0px;
+.work-content h3 {
+  font-family: var(--primary-font);
+  color: var(--quaternary-color);
+  font-weight: 500;
   
 }
-
-nav ul {
-  padding: 0;
-  margin: 0;
-}
-
-nav li {
-  display: inline;
-  list-style: none;
-  line-height: 55px;
-  padding: 12px;
-  font-size: 16px;
-  font-family: var(--secondary-font);
-}
-
-nav a {
-  text-decoration: none;
-  color: #272142b2;
-  transition: all 100ms ease-in-out;
-}
-
-nav li.active a,
-nav a:hover {
+.work-content p {
   color: var(--tertiary-color);
 }
+
 
 footer {
   margin: 140px 70px 70px 70px;
@@ -207,18 +226,28 @@ footer .inquiry-box {
   border-radius: 10px;
 }
 
+footer .inquiry-box h4{
+  color: var(--quaternary-color);
+  font-family: var(--primary-font);
+}
+
 footer .inquiry-box p {
   margin: 0;
+  font-family: var(--secondary-font);
+  color: var(--tertiary-color);
 }
 
 footer .inquiry-box a {
   font-size: 18px;
   padding: 18px 30px;
+  color:var(--quaternary-color);
+  background-color: var(--secondary-color);
+  border-color: var(--secondary-color);
 }
 
 footer .email-link {
   text-decoration: none;
-  color: var(--secondary-color);
+  color: var(--quaternary-color);
   font-family: var(--secondary-font);
   font-size: 24px;
   margin-bottom: 20px;
@@ -231,16 +260,17 @@ footer .email-link:hover {
 footer .social-links i {
   font-size: 28px;
   margin: 10px 26px;
-  color: var(--secondary-color);
+  color: var(--quaternary-color);
   padding: 10px 12px;
   border-radius: 50%;
-  background-color: var(--tertiary-color);
+  border:1px solid var(--quaternary-color);
+  background-color: var(--primary-color);
   transition: all 100ms ease-in-out;
 }
 
 footer .social-links i:hover {
-  background-color: var(--secondary-color);
-  color: var(--tertiary-color);
+  background-color:  var(--quaternary-color);
+  color: var(--primary-color);
   cursor: pointer;
 }
 
