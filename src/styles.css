@@ -30,17 +30,17 @@ body {
   padding-top: 10px;
 }
 
-nav {
-  padding: 12px 260px;
+.navbar {
+  padding: 0px 200px;
   background: var(--light-background);
 }
 
-nav ul {
+.navbar ul {
   padding: 0;
   margin: 0;
 }
 
-nav li {
+.navbar li {
   display: inline;
   list-style: none;
   line-height: 55px;
@@ -49,15 +49,19 @@ nav li {
   font-family: var(--secondary-font);
 }
 
-nav a {
+.navbar a {
   text-decoration: none;
   color: var(--quaternary-color);
   transition: all 100ms ease-in-out;
 }
 
-nav li.active a,
-nav a:hover {
+.navbar li.active a,
+.navbar a:hover {
   color: var(--tertiary-color);
+}
+
+.navbar-toggler-icon {
+  color: var(--quaternary-color);
 }
 
 .hero {
