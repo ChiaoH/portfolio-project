@@ -9,6 +9,7 @@ font-family: 'Space Mono', monospace;*/
   --secondary-color: #ffbd59;
   --tertiary-color: #b08d60;
   --quaternary-color: #005248;
+  --light-background: #fff8eb;
   --primary-font: "Mulish", sans-serif;
   --secondary-font: "Space Mono", monospace;
 }
@@ -18,7 +19,7 @@ font-family: 'Space Mono', monospace;*/
 }
 
 body {
-  background-color: var(--primary-color);
+  background-color: var(--light-background);
 }
 
 .logo {
@@ -30,7 +31,8 @@ body {
 }
 
 nav {
-  padding: 12px 0px;
+  padding: 12px 260px;
+  background: var(--light-background);
 }
 
 nav ul {
@@ -59,9 +61,10 @@ nav a:hover {
 }
 
 .hero {
-  padding: 160px 10px;
+  padding: 160px 10px 200px 10px;
   text-align: center;
   margin-bottom: 80px;
+  background: var(--light-background);
 }
 
 .hero h1 {
@@ -244,12 +247,23 @@ img {
 .work-content p {
   color: var(--tertiary-color);
 }
+
+.work-project-link {
+  text-decoration: none;
+  color: var(--quaternary-color);
+}
+
+.work-project-link:hover {
+  color: var(--secondary-color);
+  transition: all 100ms ease-in-out;
+}
+
 ¨ footer {
   margin: 140px 70px 70px 70px;
 }
 
 footer .inquiry-box {
-  background-color: #fff6de;
+  background-color: var(--primary-color);
   padding: 30px 40px;
   margin-bottom: 30px;
   margin-top: 120px;
@@ -294,7 +308,7 @@ footer .social-links i {
   padding: 10px 12px;
   border-radius: 50%;
   border: 1px solid var(--quaternary-color);
-  background-color: var(--primary-color);
+  background-color: var(--light-background);
   transition: all 100ms ease-in-out;
 }
 
@@ -365,7 +379,7 @@ footer a:hover {
     color: var(--secondary-color);
     padding: 10px 12px;
     border-radius: 50%;
-    background-color: var(--tertiary-color);
+    background-color: var(--light-background);
     transition: all 100ms ease-in-out;
   }
 }
