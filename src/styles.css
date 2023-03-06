@@ -31,21 +31,15 @@ body {
 }
 
 .navbar {
-  padding: 0px 200px;
+  padding: 20px 240px;
   background: var(--light-background);
-}
-
-.navbar ul {
-  padding: 0;
-  margin: 0;
 }
 
 .navbar li {
   display: inline;
   list-style: none;
   line-height: 55px;
-  padding: 12px;
-  font-size: 16px;
+  font-size: 18px;
   font-family: var(--secondary-font);
 }
 
@@ -57,10 +51,6 @@ body {
 
 .navbar li.active a,
 .navbar a:hover {
-  color: var(--tertiary-color);
-}
-
-.navbar-toggler-icon {
   color: var(--quaternary-color);
 }
 
@@ -117,6 +107,7 @@ body {
   font-size: 36px;
   font-weight: 700;
   color: var(--quaternary-color);
+  margin: 100px;
 }
 
 .gallery h2 {
@@ -264,8 +255,13 @@ img {
   color: var(--quaternary-color);
   font-weight: 500;
 }
+
 .work-content p {
   color: var(--tertiary-color);
+}
+
+.work-content i {
+  font-size: 28px;
 }
 
 .work-project-link {
@@ -278,7 +274,11 @@ img {
   transition: all 100ms ease-in-out;
 }
 
-¨ footer {
+.contact-label {
+  background-color: var(--secondary-color);
+}
+
+footer {
   margin: 140px 70px 70px 70px;
 }
 
@@ -353,24 +353,39 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-  nav li {
+  .navbar {
+    padding: 10px 30px;
+    text-align: right;
+  }
+
+  .navbar li {
     font-size: 14px;
   }
 
+  li .nav-item {
+    padding: 0px;
+  }
+  .nav-link {
+    padding: 0px;
+  }
+
+  .navbar li:hover {
+    color: var(--quaternary-color);
+  }
+
   .hero {
-    padding: 80px 10px;
+    padding: 80px 10px 40px 10px;
   }
-  .hero h1 {
-    font-size: 48px;
-  }
-
-  #point-down-break {
-    margin-top: 40px;
+  .hero h1,
+  .contact-content h1 {
+    font-size: 40px;
   }
 
-  .hero h2 {
+  .hero h2,
+  .gallery h2 {
     font-size: 26px;
   }
+
   .hero h3 {
     font-size: 16px;
   }
@@ -380,12 +395,15 @@ footer a:hover {
     line-height: 18px;
   }
 
-  .container h1 {
-    font-size: 48px;
+  .gallery .col {
+    margin-bottom: 20px;
   }
-  .container h2 {
-    font-size: 42px;
+
+  .my-projects {
+    margin: 50px;
+    font-size: 26px;
   }
+
   .img-description {
     padding: 0px;
   }
@@ -393,13 +411,40 @@ footer a:hover {
     text-align: center;
     padding: 0;
   }
+
+  .person {
+    display: none;
+  }
+
+  .about-content h1 {
+    font-size: 28px;
+  }
+
+  .about-content h2 {
+    font-size: 18px;
+  }
+
+  footer .email-link {
+    font-size: 16px;
+  }
+
+  footer p {
+    font-size: 10px;
+  }
+
   footer .social-links i {
-    font-size: 20px;
-    margin: 10px 26px;
-    color: var(--secondary-color);
+    font-size: 14px;
+    margin: 10px 10px;
+    color: var(--quaternary-color);
     padding: 10px 12px;
     border-radius: 50%;
     background-color: var(--light-background);
     transition: all 100ms ease-in-out;
+  }
+
+  .about-content footer p,
+  .work-content footer p,
+  .contact-content footer p {
+    font-size: 12px;
   }
 }
